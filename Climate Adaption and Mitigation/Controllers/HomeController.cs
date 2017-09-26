@@ -29,6 +29,16 @@ namespace Climate_Adaption_and_Mitigation.Controllers
             return View();
         }
 
+        public IActionResult Add_Data_Point()
+        {
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
