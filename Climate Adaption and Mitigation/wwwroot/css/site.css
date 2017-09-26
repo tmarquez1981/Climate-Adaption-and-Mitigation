@@ -11,11 +11,13 @@
 }
 
 body {
+    /*
     background-image: url(../images/world_map.jpg);
     background-attachment: fixed;
+    */
     margin-top: 0px;
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 /* QR code generator */
