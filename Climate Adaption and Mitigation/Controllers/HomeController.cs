@@ -39,6 +39,11 @@ namespace Climate_Adaption_and_Mitigation.Controllers
             return View();
         }
 
+        public IActionResult Map()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
